@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <title>Bitacora</title>
+</head>
+
+<body>
+    <header>
+        <nav class="main-nav">
+            <a href="">Bitacora</a>
+        </nav> 
+    </header>
+
+   <main>
+    <section class="main-sec">
+        <div id="operadores">
+            <h2>Operadores aritméticos:</h2>
+            <p>JavaScript tiene un amplio conjunto de operadores, entre los que se incluyen operadores aritméticos, lógicos, bit a bit y de asignación, así como algunos operadores varios. <br> 
+                Los operadores permiten hacer cálculos complejos y tomar decisiones lógicas de función de comparaciones y otros tipos de condiciones. Los operadores aritmeticos son adicion o suma (+), sustracción o restan (-), multiplicación (*), división (/), incremento (++), decremento (--).</p>
+            <img src="/HEADER_FIJO/HEADER_FIJO/img/opera.png" alt="" class="center-img">
+        </div>
+        <div id="funciones">
+            <h2>Funciónes:</h3>
+                <p>Las funciones son uno de los pilares de JS. Una función es un procedimiento, un conjunto de sentencias que realizan una tarea o calcular un valor. Para usar una función se debe declarar en algún lugar y se ejecuta cuando “algo” la llama. <br>   La sintaxis para declarar funciones en JS es: 
+                    Function nombre ([param…]) {
+                   Instrucciones:
+                   }
+                   <p> <b>Ejemplos de cómo llamar y de hacer una función:</b></p>
+                    <ul>
+                        <li>Cuando ocurre un evento (cuando un usuario hace clic en un botón) <br>
+                            <nav class="meta">
+                                <p>&lt;!--button type=”button” onclick = ”miFuncion()”>Click aqui</button>--&gt;</p>
+                            </nav>
+                        </li>
+                        <li>Cuando se invoca (llama) desde codigo JavaScript <br>
+                            <nav class="meta">
+                                <p>document.getElementById(“demo”).InnerHTML= “La temperatura es” + toCelcius(77) + “Celcius”:</p>
+                            </nav>
+                        </li>
+                        <li>Automaticamente (auto invocado) <br>
+                            <nav class="meta">
+                                <p>Function myFunction(p1, p2)(return p1*p2)</p>
+                            </nav>
+                        </li>
+                    </ul>
+        </div>            
+        <div id="datos">
+            <h2>Tipos de datos pricipales:</h2>
+            <p>Los tipos de datos principales (primitivos) de JavaScript son:
+                <ul>
+                    <li><b>Cadena (string):</b><br> Un valor de cadena está formado por una cadena de cero o más caracteres Unicode (letras, dígitos y signos de puntuación). El tipo de dato string se usa para representar texto en JavaScript.
+                        Numero</li>
+                    <li><b>Numero (number):</b><br> En JavaScript, no se distingue entre los valores entero y de punto flotante; un numero de JavaScript puede ser cualquiera de ellos (internamente, Java Script representa todos los números como valores de punto flotante). Valores enteros pueden ser números positivos como negativos y 0.<br> </li>
+                    <li><b>Boleano (boolean):</b><br> Mientras que los tipos de datos de cadena y números pueden tener un numero prácticamente ilimitado de valores diferentes, el tipo de datos booleanos solo puede tener dos. Estos son los literales True y False. Un valor booleao es un valor de validez; especifica si una condición es verdadera o no.</li>
+                </ul>
+
+                Mientras que los tipos de datos de cadena y números pueden tener un numero prácticamente ilimitado de valores diferentes, el tipo de datos booleanos solo puede tener dos. Estos son los literales True y False. Un valor booleao es un valor de validez; especifica si una condición es verdadera o no.
+                </p>
+        </div>
+        <div id="eventos">
+            <h2>Eventos:</h2>
+            <p>Un evento HTML puede ser algo que hace el navegador, o algo que hace un usuario. JavaScript puede “reaccionar” en estos eventos. Algunos eventos HTML comunes son:
+                Onchange: Un elemento HTML ha sido cambiado.
+                Onmouseover: El usuario hace clic en un elemento HTML.
+                Onmouseout: El usuario aleja el mouse de un elemento HTML.
+                Onload: El navegador ha terminado de cargar la página.
+            </p>
+            <img src="/HEADER_FIJO/HEADER_FIJO/img/PropiedadesCSS.png" alt="" class="center-img">
+        </div>
+        <div id="DOM">
+                <h2>DOM (Document Object Model):</h2>
+            <p>El Modelo de objetos de documentos (DOM) del W3C es una plataforma y una interfaz de lenguaje y una interfaz de lenguaje neutral que permite que los programas y los scripts accedan y actualicen dinámicamente el contenido, la estructura y el estilo de un documento.
+                El DOM está definido y administrado por el W3C, por lo que los distintos navegadores simplemente aplican las especificaciones del World Wide Web Consortium, para dar soporte al Dom es sus aplicaciones.
+                Con el DOM los programadores pueden construir documentos, navegar por su estructura, y añadir, modificar, o eliminar elementos y contenido.
+                Se puede acceder a casi cualquier elemento que se encuentre en un documento HTML.</p>
+                <p>El HTML DOM es un modelo de objetos estándar y una interfaz de programación para HTML que define.
+                <ul>
+                    <li>Los elementos HTML como objetos.</li>
+                    <li>Las propiedades de todos los elementos HTML</li>
+                    <li>Los métodos para acceder a todos los elementos HTML. En otras palabras: el HTML DOM es un estándar sobre como obtener, cambiar, agregar, o eliminar elementos HTML.	</li>
+                    <li>El DOM es una interfaz que implementa los navegadores para poder interactuar con los elementos HTML.</li>
+                </ul>
+                <p>Por último, los objetos creados se vinculan en una estructura de datos en forma de árbol que muestra las relaciones entre objetos primarios y secundarios definidas en el HTML original.</p>
+            <img src="/HEADER_FIJO/HEADER_FIJO/img/doom.png" alt="" class="center-img">
+                <p>El resultado de todo este proceso es de Document Object Model (DOM), que el navegador usa para todos los procesamientos de la página. Como muetra la grafica de arblo de abajo.</p>
+            <img src="/HEADER_FIJO/HEADER_FIJO/img/doom2.png" alt="" class="center-img">
+        </div>
+        <div id="referenciar">
+                <h2>Referenciar con JS</h2>
+            <p>Para poder manipular los elementos HTML con JS, primero debemos encontrarlos. <br> Esto lo podemos hacer de varias formas. Esto lo podemos hacer de varias formas: </p>
+            <h4>Encontrar elementos por su id:</h4>   
+            <p>El elemento getElemetnById() encuentra al elemento que tiene el id especificado. Este método es uno de los más comunes en el HTML DOM, y se usa casi cada vez que desea manipular u obtener información de un elemento en su documento.   Si no hay elementos en el id especificado devuelve null. Como ya sabemos, un id debe de ser único en un archivo HTML. Sin embargo, si existe más de un elemento con el id especificado, el método getElementById() devuelve el primer elemento en el código fuente.</p>   
+            <h4>Encontrar elementos por su nombre de clase.</h4>
+            <p>El elemento getElementByClassName() devuelve una colección de todos los elementos en el socumento con el nombre de la clase especificado, como un objeto HTMLCollection (lista de elementos HTML). El objeto HTMLCollection representa una colección de nodos. Se puede acceder a los nodos por números de índice. El índice comienza en o.</p>
+            <h4>Encontrar elementos por su nombre de etiqueta.</h4>
+            <p>El método getElementByTagName() devuelve una colección de todos los elementos en el documento con el nombre de etiqueta especificado, como un objeto HTMLCollection. 
+                Encontrar elementos por su selector CSS.
+                El método querySelector() devuelve el primer elemento que coincide con un selector CSS especificado en el documento. Si el selector coincide con una “id” en el documento que se usa en varias veces (hay que tener en cuenta que un “id” debe ser único dentro de una página y no debe usarse más de una vez), devuelve el primer elemento coincidente. El método querySelectorAll() devuelve todos los elementos del documento que coinciden con un selector “id” especificado, como un objeto NodeList estático. Cocumento.querySelectoAll(´selector CSS, o varios selectores separados por comas´).</p>
+        </div>
+        <div id="style"> 
+            <h2>Propiedad Style</h2>
+            <p>En JavaScript podemos utilizar la Propiedad <b>Style</b> para manipular el estiulo de un elemento HTML, o para crear uno de nuevo. <br> Para cambiar el estilo de un elemento HTML se debe usar la siguente sintaxis: documet.getElementById("id").style.propiedad="valor o nuevo valor"</p>
+            <h4>Lista de algunas propiedades de JS para modificar el CSS</h4>
+            <p>Propiedad de felxbox</p>
+            <ul>
+                <li>alignContent</li>
+                <li>alignItems</li>
+                <li>alignSelf</li>
+                <li>flexBasis</li>
+            </ul>
+            <p>Propiedades de animación</p>
+            <ul>
+                <li>animationDelay</li>
+                <li>animationDirection</li>
+                <li>animationDuration</li>
+                <li>animationFillMode</li>
+            </ul>
+            <p>Propiedades para el background</p>
+            <ul>
+                <li>backgroundAttachment</li>
+                <li>backgroundColor</li>
+                <li>backgroundImage</li>
+                <li>backgroundPosition</li>
+            </ul>
+        </div>
+        <div id="classlist">
+            <h2>ClassList</h2>
+            <p>La propiedad ClassList mas el metodo add agrega uno o mas nombre de clase a un elemento. Si la clase especifica ya existe. la clase no se agregara. La propiedad es util par agretgar, eliminar, y alternar clases CSS en un elemento. <br> La propiedad ClassList es solo para lectura, sin embargo puede modificarla utilizando los metodos add(), remove() y toggle().</p>
+            <p>La propiedad ClassList mas el metodo remove elimina uno o mas nombre de un elemento. Eliminar una clase que no existe, NO arroja un error.</p>
+            <h4>classlist.toggle()</h4>
+            <p>La propiedad classList más el método toggle alterna entre un nombre de clase para un ejemplo. El primer parámetro elimina la clase especificada de un elemento y devuelve el falso.</p>
+            <p>Si la clase no existe, se agrega el elemento y el valor booleano que obliga a agregar o quitar la clase, independientemente de si ya existia o no. </p>
+        </div>
+        <div id="if">
+            <h2>Declaraciones condicionales</h2>
+            <p>Use <b>if</b>para especificar un bloque de codigo para ejecutarse, si una condicion especifica es verdadera. <br> Use <b>else</b> para especificar un bloque de codigo pra ser ejecutado, si la misma condicion es falsa. </p>
+            <h4>Sintaxis</h4>
+            <p>La sintaxis de una delaracion condicional basdica es la siguente. <br>
+                if(condicion){ <br>
+                    codigo que sera ejecutado si la condicion es verdadera <br>
+                } <br>
+                else{ <br>
+                codigo que sera ejecutado si la condicion es falsa <br>
+                }
+            </p>
+            <img src="/HEADER_FIJO/HEADER_FIJO/img/condicion.jpg" alt="" class="center-img" width="600px">
+        </div>
+        <div id="vewport">
+            <h2>Viewport</h2>
+            <p>El viewport o ventan gráfica es el área visible del usuario de una página web.</p>
+            <p>Varía según el dispositivo y sera más pequeña en un smartphone que en la computadora.</p>
+            <img src="/HEADER_FIJO/HEADER_FIJO/img/viewport.png" alt="" class="center-img">
+            <p>HTML5 introdujo un método para permitir que los diseñadores web tomen el control de la ventana gráfica, a través de la etiqueta &lt;meta&gt;.</p>
+            <p>Un elemento de vista &lt;meta&gt; le dan al navegador Instrucciones sobre cómo controlar las dimensiones y la escala de la página.</p>
+            <nav class="meta">
+                <p>&lt;meta&gt; name="vewport"</p>
+                <p>content="whdth=device-width, initial-scale=1.0"</p>
+            </nav> 
+        </div>
+        <div id="media">
+            <h2>@media</h2>
+            <p>CSS2 introdujo tipos de medios. Las reglas @media, introduccion en CSS2, hizo posible defenir diferentes reglas de estilo para diferentes tipos de medios.</p>
+            <p>Se podían defnir reglas d eestilos para computadoras, impresoras, dispositivos de mano, televisiones, etc.</p>
+            <h4>@media CSS3</h4>
+            <p>Las medias queries son un módulo de CSS3 que adapta la representación del contenido a las características de un dispositivo.</p>
+            <p>Se convirtio en un estándar recomendado por la W3C en junio de 2012 y es un principio basico del diseño web adaptativo.</p>
+            <p>CSS3 introdujo media queries que extendieron la idea de los tipos de media de CSS2: en lugar de buscar un tipo de dispositivo, analizan la capacidad del dispositivo.</p>
+            <p>Las media queries se pueden utiliazr para verificar muchas cosas, como: ancho y alto, orientación del dispositivo (horizontal o vertical) y la resolucion.</p>
+            <img src="/HEADER_FIJO/HEADER_FIJO/img/Media-Queries.png" alt="" class="center-img" width="370px">
+            <P>El uso de media queries es una técnica popular para entregar una hoja de estilo personalizada para computadoras de escritorio, computadoras portátiles, tabletas y telefonos móviles (como los teléfonos !Phone y Android).</P>
+            <p>Los numeros de la tabla especifican la primera version del navegador es mas compatible con la regla @media.</p>
+            <img src="/HEADER_FIJO/HEADER_FIJO/img/media.png" alt="" class="center-img" width="400px">
+        </div>
+    </section>
+   </main>
+   <footer>
+    <p>Leonardo Lozano</p>
+</footer>
+</body>
+
+</html>

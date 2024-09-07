@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: red 2px;
+    margin: 0;
+}
+
+header{
+    width: 90%;
+    height: 100px;
+    background-color: #970FF2;
+    margin: 0 auto;
+    text-align: center;
+}
+nav{
+    width: 90%;
+    height: 70%;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-nav a{
+    text-decoration: none;
+    color: rgba(0, 255, 0, 0.671);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+main{
+    width: 90%;
+    height: 6200px;
+    background-color: #0597F2;
+    margin: 0 auto;
+}
+.main-sec{
+    width: 90%;
+    height: 450px;
+    margin-top: 40px;
+    margin-left: 33px;
+    float: left;
+    padding: 0 auto;
+}
+h3{
+    margin: 15px 0px;
+    font-family:sans-serif;
+    font-size: 15px;
+}
+.center-img {
+    display: block; 
+    margin-left: auto;  
+    margin-right: auto;
+    padding: 15px;     
+}
+#operadores{
+    width: 90%;
+    height: auto;
+    background-color: #05AFF2;
+    float: left;
+    padding: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+#funciones{
+    width: 90%;
+    height: auto;
+    background-color: #F2E205;
+    float: left;
+    padding: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+#datos{
+    width: 90%;
+    height: auto;
+    background-color: #F2B705;
+    float: left;
+    padding: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+#eventos{
+    width: 90%;
+    height: auto;
+    background-color: #F20505;
+    float: left;
+    padding: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+#DOM{
+    width: 90%;
+    height: auto;
+    background-color: #A60530;
+    float: left;
+    padding: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+#referenciar{
+    width: 90%;
+    height: auto;
+    background-color: #04D924;
+    float: left;
+    padding: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+#style{
+    width: 90%;
+    height: auto;
+    background-color: #F2AE2E;
+    float: left;
+    padding: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+ul{
+    margin-left: 20px;
+}
+p {
+    margin-bottom: 10px;
+  }
+#classlist{
+    width: 90%;
+    height: auto;
+    background-color: #7579b9;
+    float: left;
+    padding: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+#if{
+    width: 90%;
+    height: auto;
+    background-color: #6dbb55;
+    float: left;
+    padding: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+#vewport{
+    width: 90%;
+    height: auto;
+    background-color: #d86cbd;
+    float: left;
+    padding: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+#media{
+    width: 90%;
+    height: auto;
+    background-color: #8c6cd8;
+    float: left;
+    padding: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 8px 0;
+    border-top: 1px solid #ddd;
+}
